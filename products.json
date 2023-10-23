@@ -1,0 +1,110 @@
+{"products": [
+    {
+        "id": 1,
+        "name": "Random Genshin Impact Sticker Pack",
+        "price": 3.99,
+        "game": "Genshin Impact",
+        "description": "A 10-pack of vinyl stickers of random Genshin Impact characters",
+        "product type": "sticker",
+        "categories": ["on sale","random box"]
+    },
+    {
+        "id": 2,
+        "name": "Genshin Impact Slime Plush",
+        "price": 24.99,
+        "game": "Genshin Impact",
+        "description": " A 30-cm plush of a slime, with an element of your choosing",
+        "product type": "plushie",
+        "categories": ["on sale"]
+    },
+    {
+        "id": 3,
+        "name": "Custom Animal Crossing Keychain",
+        "price": 9.99,
+        "game": "Animal Crossing",
+        "description": "A 5-cm keychain of your own Animal Crossing character, including small accessories and a facial expression of your choosing",
+        "product type": "keychain",
+        "categories": ["custom","artist-supported"]
+    },
+    {
+        "id": 4,
+        "name": "Minecraft Animal Sticker Pack",
+        "price": 5.99,
+        "game": "Minecraft",
+        "description": "A 10-pack of random vinyl stickers with animals found in Minecraft",
+        "product type": "sticker",
+        "categories": ["artist-supported", "random box"]
+    },
+    {
+        "id": 5,
+        "name": "Minecraft Poster",
+        "price": 9.99,
+        "game": "Minecraft",
+        "description": "An 18x24 inch poster of Minecraft",
+        "product type": "poster",
+        "categories": ["artist-supported", "eco-friendly"]
+    },
+    {
+        "id": 6,
+        "name": "Stardew Valley Chicken Plush",
+        "price": 30.99,
+        "game": "Stardew Valley",
+        "description": "A 30-cm plush of a Stardew Valley chicken",
+        "product type": "plushie",
+        "categories": []
+    },
+    {
+        "id": 7,
+        "name": "Undertale Poster",
+        "price": 9.99,
+        "game": "Undertale",
+        "description": "An 18x24 inch poster of Undertale's characters",
+        "product type": "poster",
+        "categories": ["artist-supported", "eco-friendly"]
+    },
+    {
+        "id": 8,
+        "name": "Undertale Heart Keychain",
+        "price": 4.99,
+        "game": "Undertale",
+        "description": "A 5-cm keychain of a pixel heart, with a color of your choosing",
+        "product type": "keychain",
+        "categories": ["custom","on sale"]
+    },
+    {
+        "id": 9,
+        "name": "Persona 5 water bottle",
+        "price": 19.99,
+        "game": "Persona 5",
+        "description": "A stainless steel water bottle with an engraved Persona 5 insignia",
+        "product type": "water bottle",
+        "categories": ["eco-friendly", "new arrival"]
+    },
+    {
+        "id": 10,
+        "name": "Sly Cooper costume",
+        "price": 59.99,
+        "game": "Sly Cooper",
+        "description": "A full costume of Sly Cooper, complete with a mask, tail, bodysuit, and hook",
+        "product type": "costume",
+        "categories": ["new arrival"]
+    },
+    {
+        "id": 11,
+        "name": "League of Legends Random Figurine",
+        "price": 29.99,
+        "game": "League of Legends",
+        "description": "A plastic figurine of a random League of Legends character",
+        "product type": "figurine",
+        "categories": ["new arrival", "random box"]
+    },{
+        "id": 12,
+        "name": "Persona 5 figurine",
+        "price": 24.99,
+        "game": "Persona 5",
+        "description": "A plastic figurine of a Persona 5 character of your choosing",
+        "product type": "figurine",
+        "categories": ["new arrival"]
+    }
+]
+}
