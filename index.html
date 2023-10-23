@@ -13,7 +13,6 @@
 	<script language="javascript">
         $.get("https://youngseo-yi.github.io/hw6/products.json", function(data) {
             var myProductList = data;
-            alert("in the get");
             var strProductList = JSON.stringify(myProductList);
             document.write(strProductList);
         });
