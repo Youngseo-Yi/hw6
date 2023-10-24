@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>JSON 1</title>
+</head>
+
+<body>
+	<script language="javascript">
+	    var myProductList = {
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Random Genshin Impact Sticker Pack",
+                    "price": 3.99,
+                    "game": "Genshin Impact",
+                    "description": "A 10-pack of vinyl stickers of random Genshin Impact characters",
+                    "merchType": "sticker",
+                    "categories": ["on sale","random box"]
+                },
+                {
+                    "id": 2,
+                    "name": "Genshin Impact Slime Plush",
+                    "price": 24.99,
+                    "game": "Genshin Impact",
+                    "description": " A 30-cm plush of a slime, with an element of your choosing",
+                    "merchType": "plushie",
+                    "categories": ["on sale"]
+                },
+                {
+                    "id": 3,
+                    "name": "Custom Animal Crossing Keychain",
+                    "price": 9.99,
+                    "game": "Animal Crossing",
+                    "description": "A 5-cm keychain of your own Animal Crossing character, including small accessories and a facial expression of your choosing",
+                    "merchType": "keychain",
+                    "categories": ["custom","artist-supported"]
+                },
+                {
+                    "id": 4,
+                    "name": "Minecraft Animal Sticker Pack",
+                    "price": 5.99,
+                    "game": "Minecraft",
+                    "description": " A 10-pack of random vinyl stickers with animals found in Minecraft",
+                    "merchType": "sticker",
+                    "categories": ["artist-supported", "random box"]
+                },
+                {
+                    "id": 5,
+                    "name": "Minecraft Poster",
+                    "price": 9.99,
+                    "game": "Minecraft",
+                    "description": "An 18x24 inch poster of Minecraft",
+                    "merchType": "poster",
+                    "categories": ["artist-supported", "eco-friendly"]
+                },
+                {
+                    "id": 6,
+                    "name": "Stardew Valley Chicken Plush",
+                    "price": 30.99,
+                    "game": "Stardew Valley",
+                    "description": "A 30-cm plush of a Stardew Valley chicken",
+                    "merchType": "plushie",
+                    "categories": []
+                },
+                {
+                    "id": 7,
+                    "name": "Undertale Poster",
+                    "price": 9.99,
+                    "game": "Undertale",
+                    "description": "An 18x24 inch poster of Undertale's characters",
+                    "merchType": "poster",
+                    "categories": ["artist-supported", "eco-friendly"]
+                },
+                {
+                    "id": 8,
+                    "name": "Undertale Heart Keychain",
+                    "price": 4.99,
+                    "game": "Undertale",
+                    "description": "A 5-cm keychain of a pixel heart, with a color of your choosing",
+                    "merchType": "keychain",
+                    "categories": ["custom","on sale"]
+                },
+                {
+                    "id": 9,
+                    "name": "Persona 5 water bottle",
+                    "price": 19.99,
+                    "game": "Persona 5",
+                    "description": "A stainless steel water bottle with an engraved Persona 5 insignia",
+                    "merchType": "water bottle",
+                    "categories": ["eco-friendly", "new arrival"]
+                },
+                {
+                    "id": 10,
+                    "name": "Sly Cooper costume",
+                    "price": 59.99,
+                    "game": "Sly Cooper",
+                    "description": "A full costume of Sly Cooper, complete with a mask, tail, bodysuit, and hook",
+                    "merchType": "costume",
+                    "categories": ["new arrival"]
+                },
+                {
+                    "id": 11,
+                    "name": "League of Legends Random Figurine",
+                    "price": 29.99,
+                    "game": "League of Legends",
+                    "description": "A plastic figurine of a random League of Legends character",
+                    "merchType": "figurine",
+                    "categories": ["new arrival", "random box"]
+                },{
+                    "id": 12,
+                    "name": "Persona 5 figurine",
+                    "price": 24.99,
+                    "game": "Persona 5",
+                    "description": "A plastic figurine of a Persona 5 character of your choosing",
+                    "merchType": "figurine",
+                    "categories": ["new arrival"]
+                }
+            ]
+        }
+
+        var strProductList = JSON.stringify(myProductList);
+        document.write(strProductList);
+	</script>
+
+    
+</body>
+</html>

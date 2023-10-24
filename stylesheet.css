@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.product {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 20px;
+    color: red;
+}
+
+.products {
+    margin: auto;
+    width: 90%;
+}
+
+.categories {
+    display: block;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.dropdown {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: auto; /* Set the width to 'auto' or a specific value to adjust the width */
+}
+
+select {
+    font-size: 20px;
+}
+.submit {
+    display: block;
+    margin: auto;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+.submit:hover {
+    cursor:pointer;
+    background-color: darkgreen;
+}
+.filterWindow {
+    display: block;
+    margin: auto;
+    width: 90%;
+    text-align:center;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    background:white;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.exitWindow {
+    display:block;
+    padding: 0;
+    justify-items: right;
+    text-align: right;
+    margin: 0;
+    margin-bottom: 5px;
+    width: 40px;
+}
+.exitWindow:hover{
+    cursor: pointer;
+    color: red;
+}
+
+h1 {
+    font-size:50px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: "Avantgarde", "TeX Gyre Adventor", sans-serif;
+}
+
+form {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+}

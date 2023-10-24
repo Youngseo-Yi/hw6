@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>JSON 2</title>
+</head>
+
+<body>
+	<script language="javascript">
+        $.get("https://youngseo-yi.github.io/hw6/products.json", function(data) {
+            var myProductList = data;
+            var strProductList = JSON.stringify(myProductList);
+			var str = "<div class='products'>";
+			data.forEach(function(product) { 
+				str += "<div class='product'>"+
+                            "<div class='title'>" + product.name + " - " + product.price + "</div>" +
+                            "<div class='description'>" + product.description + "</div>" +
+                            "<div class='game'>" + product.game + "</div>" + 
+                            "<div class='type'>" + product.merchType + "</div>" +
+                            "<div class='categories'>" + product.categories + "</div>" +
+                        "</div>";
+			}); 
+            str +='</div>';
+	        document.getElementById('products').innerHTML = str;
+        });
+        
+	</script>
+    <h1>Merch Store</h1>
+    <div class="products" id = "products"></div>
+
+</body>
+</html>

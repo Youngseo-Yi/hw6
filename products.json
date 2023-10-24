@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "name": "Persona 5 water bottle",
+        "name": "Persona 5 Water Bottle",
         "price": 19.99,
         "game": "Persona 5",
         "description": "A stainless steel water bottle with an engraved Persona 5 insignia",
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "name": "Sly Cooper costume",
+        "name": "Sly Cooper Costume",
         "price": 59.99,
         "game": "Sly Cooper",
         "description": "A full costume of Sly Cooper, complete with a mask, tail, bodysuit, and hook",
@@ -99,7 +99,7 @@
         "categories": ["new arrival", "random box"]
     },{
         "id": 12,
-        "name": "Persona 5 figurine",
+        "name": "Persona 5 Figurine",
         "price": 24.99,
         "game": "Persona 5",
         "description": "A plastic figurine of a Persona 5 character of your choosing",
